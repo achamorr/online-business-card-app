@@ -2,6 +2,7 @@
 var pgp = require('pg-promise')();
 
 
+/*
 const dbConfig = {
    host: 'localhost',
    port: 5432,
@@ -14,6 +15,8 @@ const dbConfig = {
 var db = pgp(dbConfig); 
 
 
-var dbConfig = process.env.DATABASE_URL;
-
 module.exports = db;
+
+*/
+
+var dbConfig = process.env.DATABASE_URL;

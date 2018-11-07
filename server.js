@@ -44,7 +44,7 @@ app.use('/store', store);
 
 
 
-var port = 4000;
+//var port = 4000;
 var port = process.env.PORT;
 
 app.listen(port, function () {
