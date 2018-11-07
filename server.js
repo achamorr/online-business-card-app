@@ -1,4 +1,5 @@
 
+
 var express = require('express');
 var app = express();
 
@@ -43,7 +44,9 @@ app.use('/store', store);
 
 
 
-var port = 4000;
+//var port = 4000;
+var port = process.env.PORT;
+
 app.listen(port, function () {
     console.log('Server running on http://localhost:' + port)
 });

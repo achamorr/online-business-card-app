@@ -1,6 +1,7 @@
 
 var pgp = require('pg-promise')();
 
+/*
 const dbConfig = {
    host: 'localhost',
    port: 5432,
@@ -10,7 +11,8 @@ const dbConfig = {
                 // Use empty string if you did not set a password
 };
 
-var db = pgp(dbConfig);
+var db = pgp(dbConfig); */
+
 
 var dbConfig = process.env.DATABASE_URL;
 
