@@ -13,10 +13,10 @@ const dbConfig = {
 };
 
 var db = pgp(dbConfig); 
-
+*/
 
 module.exports = db;
 
-*/
+
 
 var dbConfig = process.env.DATABASE_URL;
