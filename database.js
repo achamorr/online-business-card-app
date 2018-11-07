@@ -11,12 +11,12 @@ const dbConfig = {
    password: '1234' // TODO: Fill in your PostgreSQL password here.
                 // Use empty string if you did not set a password
 };
+*/
+var dbConfig = process.env.DATABASE_URL;
 
 var db = pgp(dbConfig); 
-*/
 
 module.exports = db;
 
 
 
-var dbConfig = process.env.DATABASE_URL;
