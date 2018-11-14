@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title><%= title %></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -27,28 +27,21 @@
     }
   </style>
 
+
 </head>
 <body>
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Online Store</h1>      
-    <p>Mission, Vission & Values</p>
+    <h1><%= title %></h1>    
   </div>
 </div>
 
-<title><%= title %></title>
-</head>
-<body>
-<div>
-	<h1><%= title %></h1>
-</div>
-
-<div>
+<!--<div>
     <a href="/">Home</a> |
     <a href="/store/add">Add Cards</a> |
     <a href="/store">Card Library</a>
-</div>
+</div>-->
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -58,12 +51,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
         <li><a href="#">Add Cards</a></li>
         <li><a href="#">Card Library</a></li>
       </ul>
@@ -86,21 +77,11 @@
         <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-      </div>
-    </div>
   </div>
 </div><br>
 
 <div class="container">    
   <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-      </div>
-    </div>
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
